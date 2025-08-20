@@ -1,0 +1,22 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "宝宝学语言"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "宝宝学语言",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F0F8FF"
+	}
+}

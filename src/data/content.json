@@ -1,0 +1,23 @@
+[
+    {
+        "category": { "id": 1, "name": "动物世界", "key": "animals", "icon_path": "/static/icons/animals.jpg" },
+        "cards": [
+            { "id": 101, "name": "小狗", "image_path": "/static/images/animals/dog.jpg", "name_sound_path": "/static/sounds/animals/dog_name.mp3", "effect_sound_path": "/static/sounds/animals/dog_sound.mp3" },
+            { "id": 102, "name": "小猫", "image_path": "/static/images/animals/cat.jpg", "name_sound_path": "/static/sounds/animals/cat_name.mp3", "effect_sound_path": "/static/sounds/animals/cat_sound.mp3" }
+        ]
+    },
+    {
+        "category": { "id": 2, "name": "水果乐园", "key": "fruits", "icon_path": "/static/icons/fruits.jpg" },
+        "cards": [
+            { "id": 201, "name": "苹果", "image_path": "/static/images/fruits/apple.jpg", "name_sound_path": "/static/sounds/fruits/apple_name.mp3", "effect_sound_path": null },
+            { "id": 202, "name": "香蕉", "image_path": "/static/images/fruits/banana.jpg", "name_sound_path": "/static/sounds/fruits/banana_name.mp3", "effect_sound_path": null }
+        ]
+    },
+    {
+        "category": { "id": 3, "name": "交通工具", "key": "vehicles", "icon_path": "/static/icons/vehicles.jpg" },
+        "cards": [
+            { "id": 301, "name": "汽车", "image_path": "/static/images/vehicles/car.jpg", "name_sound_path": "/static/sounds/vehicles/car_name.mp3", "effect_sound_path": "/static/sounds/vehicles/car_sound.mp3" },
+            { "id": 302, "name": "飞机", "image_path": "/static/images/vehicles/plane.jpg", "name_sound_path": "/static/sounds/vehicles/plane_name.mp3", "effect_sound_path": "/static/sounds/vehicles/plane_sound.mp3" }
+        ]
+    }
+]
