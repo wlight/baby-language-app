@@ -1,47 +1,53 @@
 [
     {
-        "category": { "id": 1, "name": "动物世界", "key": "animals", "icon_path": "/static/icons/animals.jpg" },
+        "category": { "id": 1, "name": "动物世界", "key": "animals", "icon_path": "/static/icons/animals.png" },
         "cards": [
-            { "id": 101, "name": "小狗", "image_path": "/static/images/animals/dog.jpg", "name_sound_path": "/static/sounds/animals/dog_name.mp3", "effect_sound_path": "/static/sounds/animals/dog_sound.mp3" },
-            { "id": 102, "name": "小猫", "image_path": "/static/images/animals/cat.jpg", "name_sound_path": "/static/sounds/animals/cat_name.mp3", "effect_sound_path": "/static/sounds/animals/cat_sound.mp3" },
-            { "id": 103, "name": "小鸟", "image_path": "/static/images/animals/bird.jpg", "name_sound_path": "/static/sounds/animals/bird_name.mp3", "effect_sound_path": "/static/sounds/animals/bird_sound.mp3" },
-            { "id": 104, "name": "小鱼", "image_path": "/static/images/animals/fish.jpg", "name_sound_path": "/static/sounds/animals/fish_name.mp3", "effect_sound_path": "/static/sounds/animals/fish_sound.mp3" },
-            { "id": 105, "name": "大象", "image_path": "/static/images/animals/elephant.jpg", "name_sound_path": "/static/sounds/animals/elephant_name.mp3", "effect_sound_path": "/static/sounds/animals/elephant_sound.mp3" },
-            { "id": 106, "name": "老虎", "image_path": "/static/images/animals/tiger.jpg", "name_sound_path": "/static/sounds/animals/tiger_name.mp3", "effect_sound_path": "/static/sounds/animals/tiger_sound.mp3" },
-            { "id": 107, "name": "狮子", "image_path": "/static/images/animals/lion.jpg", "name_sound_path": "/static/sounds/animals/lion_name.mp3", "effect_sound_path": "/static/sounds/animals/lion_sound.mp3" },
-            { "id": 108, "name": "猴子", "image_path": "/static/images/animals/monkey.jpg", "name_sound_path": "/static/sounds/animals/monkey_name.mp3", "effect_sound_path": "/static/sounds/animals/monkey_sound.mp3" },
-            { "id": 109, "name": "熊猫", "image_path": "/static/images/animals/panda.jpg", "name_sound_path": "/static/sounds/animals/panda_name.mp3", "effect_sound_path": "/static/sounds/animals/panda_sound.mp3" },
-            { "id": 110, "name": "兔子", "image_path": "/static/images/animals/rabbit.jpg", "name_sound_path": "/static/sounds/animals/rabbit_name.mp3", "effect_sound_path": "/static/sounds/animals/rabbit_sound.mp3" }
+            { "id": 101, "name": "小狗", "image_path": "/static/images/animals/dog.jpg", "name_sound_path": "/static/sounds/animals/dog_name.mp3", "effect_sound_path": null },
+            { "id": 102, "name": "小猫", "image_path": "/static/images/animals/cat.jpg", "name_sound_path": "/static/sounds/animals/cat_name.mp3", "effect_sound_path": null },
+            { "id": 103, "name": "小鸟", "image_path": "/static/images/animals/bird.jpg", "name_sound_path": "/static/sounds/animals/bird_name.mp3", "effect_sound_path": null },
+            { "id": 104, "name": "小鱼", "image_path": "/static/images/animals/fish.jpg", "name_sound_path": "/static/sounds/animals/fish_name.mp3", "effect_sound_path": null },
+            { "id": 105, "name": "大象", "image_path": "/static/images/animals/elephant.jpg", "name_sound_path": "/static/sounds/animals/elephant_name.mp3", "effect_sound_path": null },
+            { "id": 106, "name": "老虎", "image_path": "/static/images/animals/tiger.jpg", "name_sound_path": "/static/sounds/animals/tiger_name.mp3", "effect_sound_path": null },
+            { "id": 107, "name": "狮子", "image_path": "/static/images/animals/lion.jpg", "name_sound_path": "/static/sounds/animals/lion_name.mp3", "effect_sound_path": null },
+            { "id": 108, "name": "猴子", "image_path": "/static/images/animals/monkey.jpg", "name_sound_path": "/static/sounds/animals/monkey_name.mp3", "effect_sound_path": null },
+            { "id": 109, "name": "熊猫", "image_path": "/static/images/animals/panda.jpg", "name_sound_path": "/static/sounds/animals/panda_name.mp3", "effect_sound_path": null },
+            { "id": 110, "name": "兔子", "image_path": "/static/images/animals/rabbit.jpg", "name_sound_path": "/static/sounds/animals/rabbit_name.mp3", "effect_sound_path": null },
+            { "id": 111, "name": "长颈鹿", "image_path": "/static/images/animals/giraffe.png", "name_sound_path": "/static/sounds/animals/giraffe_name.mp3", "effect_sound_path": null },
+            { "id": 112, "name": "牛", "image_path": "/static/images/animals/cow.png", "name_sound_path": "/static/sounds/animals/cow_name.mp3", "effect_sound_path": null }
         ]
     },
     {
-        "category": { "id": 2, "name": "水果乐园", "key": "fruits", "icon_path": "/static/icons/fruits.jpg" },
+        "category": { "id": 2, "name": "水果乐园", "key": "fruits", "icon_path": "/static/icons/fruits.png" },
         "cards": [
-            { "id": 201, "name": "苹果", "image_path": "/static/images/fruits/apple.jpg", "name_sound_path": "/static/sounds/fruits/apple_name.mp3", "effect_sound_path": null },
-            { "id": 202, "name": "香蕉", "image_path": "/static/images/fruits/banana.jpg", "name_sound_path": "/static/sounds/fruits/banana_name.mp3", "effect_sound_path": null },
-            { "id": 203, "name": "橙子", "image_path": "/static/images/fruits/orange.jpg", "name_sound_path": "/static/sounds/fruits/orange_name.mp3", "effect_sound_path": null },
-            { "id": 204, "name": "葡萄", "image_path": "/static/images/fruits/grape.jpg", "name_sound_path": "/static/sounds/fruits/grape_name.mp3", "effect_sound_path": null },
-            { "id": 205, "name": "西瓜", "image_path": "/static/images/fruits/watermelon.jpg", "name_sound_path": "/static/sounds/fruits/watermelon_name.mp3", "effect_sound_path": null },
-            { "id": 206, "name": "草莓", "image_path": "/static/images/fruits/strawberry.jpg", "name_sound_path": "/static/sounds/fruits/strawberry_name.mp3", "effect_sound_path": null },
-            { "id": 207, "name": "桃子", "image_path": "/static/images/fruits/peach.jpg", "name_sound_path": "/static/sounds/fruits/peach_name.mp3", "effect_sound_path": null },
-            { "id": 208, "name": "梨子", "image_path": "/static/images/fruits/pear.jpg", "name_sound_path": "/static/sounds/fruits/pear_name.mp3", "effect_sound_path": null },
-            { "id": 209, "name": "菠萝", "image_path": "/static/images/fruits/pineapple.jpg", "name_sound_path": "/static/sounds/fruits/pineapple_name.mp3", "effect_sound_path": null },
-            { "id": 210, "name": "芒果", "image_path": "/static/images/fruits/mango.jpg", "name_sound_path": "/static/sounds/fruits/mango_name.mp3", "effect_sound_path": null }
+            { "id": 201, "name": "苹果", "image_path": "/static/images/fruits/apple.png", "name_sound_path": "/static/sounds/fruits/apple_name.mp3", "effect_sound_path": null },
+            { "id": 202, "name": "香蕉", "image_path": "/static/images/fruits/banana.png", "name_sound_path": "/static/sounds/fruits/banana_name.mp3", "effect_sound_path": null },
+            { "id": 203, "name": "橙子", "image_path": "/static/images/fruits/orange.png", "name_sound_path": "/static/sounds/fruits/orange_name.mp3", "effect_sound_path": null },
+            { "id": 204, "name": "葡萄", "image_path": "/static/images/fruits/grape.png", "name_sound_path": "/static/sounds/fruits/grape_name.mp3", "effect_sound_path": null },
+            { "id": 205, "name": "西瓜", "image_path": "/static/images/fruits/watermelon.png", "name_sound_path": "/static/sounds/fruits/watermelon_name.mp3", "effect_sound_path": null },
+            { "id": 206, "name": "草莓", "image_path": "/static/images/fruits/strawberry.png", "name_sound_path": "/static/sounds/fruits/strawberry_name.mp3", "effect_sound_path": null },
+            { "id": 207, "name": "桃子", "image_path": "/static/images/fruits/peach.png", "name_sound_path": "/static/sounds/fruits/peach_name.mp3", "effect_sound_path": null },
+            { "id": 208, "name": "梨子", "image_path": "/static/images/fruits/pear.png", "name_sound_path": "/static/sounds/fruits/pear_name.mp3", "effect_sound_path": null },
+            { "id": 209, "name": "菠萝", "image_path": "/static/images/fruits/pineapple.png", "name_sound_path": "/static/sounds/fruits/pineapple_name.mp3", "effect_sound_path": null },
+            { "id": 210, "name": "芒果", "image_path": "/static/images/fruits/mango.png", "name_sound_path": "/static/sounds/fruits/mango_name.mp3", "effect_sound_path": null },
+            { "id": 211, "name": "柠檬", "image_path": "/static/images/fruits/lemon.png", "name_sound_path": "/static/sounds/fruits/lemon_name.mp3", "effect_sound_path": null },
+            { "id": 212, "name": "猕猴桃", "image_path": "/static/images/fruits/kiwi.png", "name_sound_path": "/static/sounds/fruits/kiwi_name.mp3", "effect_sound_path": null }
         ]
     },
     {
-        "category": { "id": 3, "name": "交通工具", "key": "vehicles", "icon_path": "/static/icons/vehicles.jpg" },
+        "category": { "id": 3, "name": "交通工具", "key": "vehicles", "icon_path": "/static/icons/vehicles.png" },
         "cards": [
-            { "id": 301, "name": "汽车", "image_path": "/static/images/vehicles/car.jpg", "name_sound_path": "/static/sounds/vehicles/car_name.mp3", "effect_sound_path": "/static/sounds/vehicles/car_sound.mp3" },
-            { "id": 302, "name": "飞机", "image_path": "/static/images/vehicles/plane.jpg", "name_sound_path": "/static/sounds/vehicles/plane_name.mp3", "effect_sound_path": "/static/sounds/vehicles/plane_sound.mp3" },
-            { "id": 303, "name": "火车", "image_path": "/static/images/vehicles/train.jpg", "name_sound_path": "/static/sounds/vehicles/train_name.mp3", "effect_sound_path": "/static/sounds/vehicles/train_sound.mp3" },
-            { "id": 304, "name": "轮船", "image_path": "/static/images/vehicles/ship.jpg", "name_sound_path": "/static/sounds/vehicles/ship_name.mp3", "effect_sound_path": "/static/sounds/vehicles/ship_sound.mp3" },
-            { "id": 305, "name": "自行车", "image_path": "/static/images/vehicles/bicycle.jpg", "name_sound_path": "/static/sounds/vehicles/bicycle_name.mp3", "effect_sound_path": "/static/sounds/vehicles/bicycle_sound.mp3" },
-            { "id": 306, "name": "摩托车", "image_path": "/static/images/vehicles/motorcycle.jpg", "name_sound_path": "/static/sounds/vehicles/motorcycle_name.mp3", "effect_sound_path": "/static/sounds/vehicles/motorcycle_sound.mp3" },
-            { "id": 307, "name": "公交车", "image_path": "/static/images/vehicles/bus.jpg", "name_sound_path": "/static/sounds/vehicles/bus_name.mp3", "effect_sound_path": "/static/sounds/vehicles/bus_sound.mp3" },
-            { "id": 308, "name": "救护车", "image_path": "/static/images/vehicles/ambulance.jpg", "name_sound_path": "/static/sounds/vehicles/ambulance_name.mp3", "effect_sound_path": "/static/sounds/vehicles/ambulance_sound.mp3" },
-            { "id": 309, "name": "消防车", "image_path": "/static/images/vehicles/firetruck.jpg", "name_sound_path": "/static/sounds/vehicles/firetruck_name.mp3", "effect_sound_path": "/static/sounds/vehicles/firetruck_sound.mp3" },
-            { "id": 310, "name": "警车", "image_path": "/static/images/vehicles/policecar.jpg", "name_sound_path": "/static/sounds/vehicles/policecar_name.mp3", "effect_sound_path": "/static/sounds/vehicles/policecar_sound.mp3" }
+            { "id": 301, "name": "汽车", "image_path": "/static/images/vehicles/car.png", "name_sound_path": "/static/sounds/vehicles/car_name.mp3", "effect_sound_path": "/static/sounds/vehicles/car_sound.mp3" },
+            { "id": 302, "name": "飞机", "image_path": "/static/images/vehicles/plane.png", "name_sound_path": "/static/sounds/vehicles/plane_name.mp3", "effect_sound_path": "/static/sounds/vehicles/plane_sound.mp3" },
+            { "id": 303, "name": "火车", "image_path": "/static/images/vehicles/train.png", "name_sound_path": "/static/sounds/vehicles/train_name.mp3", "effect_sound_path": "/static/sounds/vehicles/train_sound.mp3" },
+            { "id": 304, "name": "轮船", "image_path": "/static/images/vehicles/ship.png", "name_sound_path": "/static/sounds/vehicles/ship_name.mp3", "effect_sound_path": "/static/sounds/vehicles/ship_sound.mp3" },
+            { "id": 305, "name": "自行车", "image_path": "/static/images/vehicles/bicycle.png", "name_sound_path": "/static/sounds/vehicles/bicycle_name.mp3", "effect_sound_path": "/static/sounds/vehicles/bicycle_sound.mp3" },
+            { "id": 306, "name": "摩托车", "image_path": "/static/images/vehicles/motorcycle.png", "name_sound_path": "/static/sounds/vehicles/motorcycle_name.mp3", "effect_sound_path": "/static/sounds/vehicles/motorcycle_sound.mp3" },
+            { "id": 307, "name": "公交车", "image_path": "/static/images/vehicles/bus.png", "name_sound_path": "/static/sounds/vehicles/bus_name.mp3", "effect_sound_path": "/static/sounds/vehicles/bus_sound.mp3" },
+            { "id": 308, "name": "救护车", "image_path": "/static/images/vehicles/ambulance.png", "name_sound_path": "/static/sounds/vehicles/ambulance_name.mp3", "effect_sound_path": "/static/sounds/vehicles/ambulance_sound.mp3" },
+            { "id": 309, "name": "消防车", "image_path": "/static/images/vehicles/firetruck.png", "name_sound_path": "/static/sounds/vehicles/firetruck_name.mp3", "effect_sound_path": "/static/sounds/vehicles/firetruck_sound.mp3" },
+            { "id": 310, "name": "警车", "image_path": "/static/images/vehicles/policecar.png", "name_sound_path": "/static/sounds/vehicles/policecar_name.mp3", "effect_sound_path": "/static/sounds/vehicles/policecar_sound.mp3" },
+            { "id": 311, "name": "出租车", "image_path": "/static/images/vehicles/taxi.png", "name_sound_path": "/static/sounds/vehicles/taxi_name.mp3", "effect_sound_path": "/static/sounds/vehicles/taxi_sound.mp3" },
+            { "id": 312, "name": "地铁", "image_path": "/static/images/vehicles/subway.png", "name_sound_path": "/static/sounds/vehicles/subway_name.mp3", "effect_sound_path": "/static/sounds/vehicles/subway_sound.mp3" }
         ]
     }
 ]

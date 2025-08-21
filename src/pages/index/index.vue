@@ -34,10 +34,11 @@ const goToCategory = (category) => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   padding: 40px 20px;
   background-color: #f0f8ff;
-  height: 100vh;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .title {
@@ -48,10 +49,12 @@ const goToCategory = (category) => {
 }
 
 .category-grid {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
 }
 
 .category-card {
@@ -59,8 +62,8 @@ const goToCategory = (category) => {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  aspect-ratio: 1/1;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -80,5 +83,27 @@ const goToCategory = (category) => {
 .category-name {
   font-size: 18px;
   color: #555;
+}
+
+/* iPad specific styles */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .category-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+  
+  .title {
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+  
+  .category-icon {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .category-name {
+    font-size: 22px;
+  }
 }
 </style>
