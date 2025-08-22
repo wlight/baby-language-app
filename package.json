@@ -4,6 +4,8 @@
   "scripts": {
     "dev:custom": "uni -p",
     "dev:h5": "uni",
+    "dev:ios": "uni -p ios",
+    "build:ios": "uni build -p ios",
     "dev:h5:ssr": "uni --ssr",
     "dev:mp-alipay": "uni -p mp-alipay",
     "dev:mp-baidu": "uni -p mp-baidu",

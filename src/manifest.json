@@ -17,7 +17,8 @@
             "alwaysShowBeforeRender" : true,
             "waiting" : true,
             "autoclose" : true,
-            "delay" : 0
+            "delay" : 0,
+            "backgroundColor": "#FFFFFF"
         },
         "modules" : {},
         "distribute" : {
@@ -40,7 +41,25 @@
                     "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
                 ]
             },
-            "ios" : {},
+            "ios" : {
+                "id": "com.example.babylearn",
+                "appname": "宝宝学语言",
+                "version": "1.0.0",
+                "build": "1",
+                "icons": {
+                    "app": "static/icons/logo.png"
+                },
+                "splashscreen": {
+                    "autoclose": true,
+                    "waiting": true
+                },
+                "deviceOrientation": "portrait",
+                "privacyDescription": {
+                    "NSPhotoLibraryUsageDescription": "需要访问相册来保存图片",
+                    "NSCameraUsageDescription": "需要使用相机拍照",
+                    "NSMicrophoneUsageDescription": "需要使用麦克风录音"
+                }
+            },
             "sdkConfigs" : {}
         }
     },
